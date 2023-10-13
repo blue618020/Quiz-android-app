@@ -57,6 +57,9 @@
 
 
 #### 3. 문제가 끝나면 AlertDialog 팝업 띄우기
-- 
-  
-- 
+- showAlertDialog() 함수를 사용하여 화면에 팝업창을 띄움
+- 긍정 또는 부정 버튼에 따라서 작동할 기능도 정할 수 있음
+- setTitle("팝업창에서 보일 타이틀");
+- setMessage("팝업창에서 보일 메시지");
+- builder.setPositiveButton(긍정버튼) > 퀴즈를 다시 처음부터 시작하기
+   & builder.setNegativeButton(부정버튼) > 팝업창 종료 finish();
