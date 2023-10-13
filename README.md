@@ -62,4 +62,5 @@
 - setTitle("팝업창에서 보일 타이틀");
 - setMessage("팝업창에서 보일 메시지");
 - builder.setPositiveButton(긍정버튼) > 퀴즈를 다시 처음부터 시작하기
+  
    & builder.setNegativeButton(부정버튼) > 팝업창 종료 finish();
